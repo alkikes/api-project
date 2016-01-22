@@ -1,10 +1,8 @@
-RJC ERP API v1
-==============
+# API eCommerce de RJC
 
 Este repositorio define la versión uno del API del ERP para el Bizhub de RJC.
 
-Se contemplan los siguientes aspectos:
-================
+## Se contemplan los siguientes aspectos:
 
   * Soporte para múltiples países
   * Soporte para bodegas por país
@@ -18,14 +16,12 @@ Se contemplan los siguientes aspectos:
   * Descripción de código de respuesta en cada endpoint.
   * Especificación de estructuras de datos formales utilizados en los endpoints.
 
-Pendientes a cargo del implementador:
-================
+## Pendientes a cargo del implementador:
 
   * Las columnas cuyo significado no es claro se han nombrado con el patrón x_nombre_de_columna. Es necesario renombrar estas columnas a su equivalente en inglés.
   * Se debe documentar cómo se calculan los precios de un pedido según el cliente para conocer como se debe estructurar un pedido para crearlo y como calcular el precio final que tendrá.
 
-Consideraciones importantes:
-================
+## Consideraciones importantes:
 
   * Esta es una definición formal y objectiva del API. Los tipos de dato se definieron según los ejemplos previos de Apiary y por lo tanto cualquier otra columna que sea necesaria debe ser agregada.
   * Todos los campos nuevos deben llamarse en inglés.
@@ -36,14 +32,12 @@ Consideraciones importantes:
   * Cuando se actualicé un pedido los cambios en sus renglones deben ser manejados por el PATCH de los pedidos.
   * El cliente del API debe asumir que toda solicitud exitosa cumple las reglas de negocios del ERP.
 
-Recomendaciones:
-================
+## Recomendaciones:
 
   * Utilizar vistas de la db para manejar el mapeo a inglés de los nombres de columna
   * Calcular diariamente en batch las popularidades por artículo
 
-Links:
-================
+## Links:
 
   * Para desargar en ZIP este repositorio: https://github.com/davidpelaez/erp-api-rjc/archive/master.zip
   * Especificación de RAML 1.0: http://docs.raml.org/specs/1.0
