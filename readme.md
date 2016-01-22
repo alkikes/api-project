@@ -40,4 +40,4 @@ Este repositorio define la versión uno del API del ERP para el Bizhub de RJC.
 ## Links:
 
    * Especificaciones del lenguaje RAML 1.0: http://docs.raml.org/specs/1.0
-   * Descargue este repositorio en un archivo ZIP: https://github.com/alkikes/api-project/archive/master.zip
+   * Para descargar este repositorio en un archivo ZIP: https://github.com/alkikes/api-project/archive/master.zip
