@@ -1,0 +1,19 @@
+#%RAML 1.0 DataType
+type: object
+properties:
+  id: string
+  name: string
+  weight: number
+  x_pie: string
+  x_uni_venta: string
+  price: number
+  picture: string
+  stock: number
+  x_ubic: string # esto sale en interfaz pero no se que sea
+  discount_percentage: number # esto sale en la interfaz pero no se donde viene
+  # Puntajes para organizar por popularidad
+  # de ventas de los ultimos X días
+  popularity_7: number
+  popularity_30: number
+  popularity_60: number
+  popularity_90: number
